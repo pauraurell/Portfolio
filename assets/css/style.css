@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.responsive {
+  max-width: auto;
+  height: auto;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -302,7 +308,7 @@ section.section-show {
   padding-bottom: 45px;
 }
 section .container {
-  min-width: 1620px;
+  
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
 }
@@ -696,7 +702,6 @@ section .container {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
-  width: 100%;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
