@@ -696,7 +696,7 @@ section .container {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
-  width: 512px;
+  width: 100%;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
